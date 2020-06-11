@@ -1,0 +1,10 @@
+type Todo @model {
+  id: ID!
+  name: String!
+  description: String
+}
+
+
+type Query {
+   call(msg: String): String @function(name: "sam-tasks")
+}

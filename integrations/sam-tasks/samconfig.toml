@@ -1,0 +1,11 @@
+version = 0.1
+[default]
+[default.deploy]
+[default.deploy.parameters]
+stack_name = "sam-tasks"
+s3_bucket = "aws-sam-cli-managed-default-samclisourcebucket-bcbxanhorkib"
+s3_prefix = "sam-tasks"
+region = "us-east-1"
+profile = "formiga_account"
+capabilities = "CAPABILITY_IAM"
+
